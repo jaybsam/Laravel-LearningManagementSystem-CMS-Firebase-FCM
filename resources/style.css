@@ -1,0 +1,317 @@
+/** reserve color:#3abb45; **/
+html{
+	background-image: url(../images/background.png);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a{
+	font-weight: 500;
+	color:#22370b;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+a:hover{
+	color:#395d11;
+	text-decoration: none;
+}
+h3{
+	line-height: 1.5;
+}
+
+.uk-navbar-nav>li>a{
+	font-family: times new roman !important;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle{
+	padding: 9px 25px !important;
+	font-size:11pt;
+	height: 55px;
+}
+.uk-navbar-nav>li>a{
+	text-transform: none !important;
+}
+.uk-active{
+	color:#222;
+}
+.uk-navbar-container:not(.uk-navbar-transparent){
+	/*background:#22370b;*/
+	background:linear-gradient(to left, #01ffa2c4, #1c370b);
+}
+.uk-section{
+	padding-bottom: 40px !important;
+}
+.uk-navbar-nav>li>a{
+	transition: 0.4s;
+	color:#fff;
+}
+.uk-slideshow-items{
+	height:440px !important;
+}
+[class*=uk-drop-bottom]{
+	margin-top:0px;
+}
+[class*=uk-navbar-dropdown-bottom]{
+	margin-top:0px;
+}
+.portal{
+	transition: 0.5s;
+	font-size:20pt;
+	opacity: 1;
+}
+.portal:hover{
+	opacity: 0.7;
+}
+.border-form{
+	transition: 0.5s;
+	border-radius:20px;
+	box-shadow: 10px 10px 30px #222;
+
+}
+.news_title{
+	color:#22370b;
+	font-weight: 400;
+	font-size:25px;
+}
+.news_title:hover{
+	text-decoration: none;
+	color:#395d11;
+}
+.announcement_title{
+	color:#22370b;
+	font-weight: 400;
+	font-size:25px;
+}
+.announcement_title:hover{
+	text-decoration: none;
+	color:#395d11;
+}
+.badge_color{
+	background:#22370b;
+}
+.image_left{
+	width: 100px;
+	float:left;
+	margin-right:15px;
+}
+.badge_color_red{
+	background:#8b0808;
+}
+.active{
+	color:#1d380c !important;
+	font-weight: 900;
+}
+nav{
+
+	
+}
+.uk-slideshow{
+	/*border-bottom:10px solid #7acba1;*/
+	border-bottom:10px solid #2c9c62;
+}
+.campus_button{
+	opacity: 1;
+	transition: 0.5s;
+}
+.campus_button > img{
+	border-radius: 2px;
+}
+.campus_button:hover{
+	opacity: 0.8;
+}
+.portal_button_position{
+	position: fixed;
+	right: 0;
+	top:50%;
+	margin-right: -200px;
+	transition: 0.5s;
+	z-index:1000;
+	overflow: hidden;
+}
+.portal_button_position:hover{
+	margin-right:0px;
+}
+.default_width{
+	width: 25%;
+}
+.button_title{
+	color:#22370b;
+	font-weight: 400;
+	font-size:20px;
+}
+.button_title:hover{
+	text-decoration: none;
+	color:#395d11;
+}
+.social_ico{
+	color:#222 !important;
+	font-size: 20pt !important; 
+}
+.switcher-width{
+	width: 90%;
+}
+.uk-tab>.uk-active>a{
+	border-color:#22370b;
+}
+.uk-button-default.uk-active, .uk-button-default:active{
+	background-color:#22370b;
+	color:white; 
+}
+.uk-card-default{
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.19);
+}
+.uk-button-default:hover{
+	transition: 0.5s;
+	border-color:#22370b;
+}
+.button_effect_1 span{
+	transition: 0.5s;
+	margin-left:0px;
+}
+.button_effect_1:hover span{
+	margin-left: 10px;
+}
+/*.uk-slider-items > li{
+	transform: rotate(-90deg);
+	padding-left: 0px !important;
+}*/
+.uk-child-width-1-2\@s>*{
+	width:33%;
+}
+.custom_position{
+	right:-70%;
+}
+.auto{
+	flex:none !important;
+	width: 30%;
+}
+.button_green{
+	transition: 0.5s;
+	text-transform: none;
+}
+.button_green:hover{
+	color:#fff;
+	
+	background:#22370b;
+}
+.page {display:none;}
+.preload {
+    display:block;
+    top:250px;
+    left:0;
+    position: absolute;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+
+}
+.loader{
+  width:100%;
+}
+.logo_effect{
+	position: relative;
+	top:100px;
+	animation: frontload 5s infinite;
+	z-index: 100;
+}
+@keyframes frontload {
+    0%   {left: 0px;}
+    25%  {left: 200px;}
+    75%  {left: -200px}
+    100% {left: 200px;}
+}
+.logo_effect4{
+	opacity: 0.9;
+	top:-125px;
+	position: relative;
+	animation: neweffect 5s infinite;
+}
+@keyframes neweffect {
+    0%   {right: 0px;}
+    25%  {right: 200px;}
+    75%  {right: -200px}
+    100% {right: 200px;}
+}
+.wekonek_button{
+	transition: 0.5s;
+	padding:25px;
+	cursor:pointer;
+	border:none !important;
+	font-size: 20pt;
+	color:#fff;
+}
+.wekonek_button:hover{
+	border:none !important;
+	border-color:none !important;
+	border-style: none;
+	color:#fff;
+	background:#067200;
+}
+.switcher_font_weight{
+	font-weight: 500;
+}
+.a_effect_hover{
+	transition: 0.3s;
+	padding: 5px;
+}
+.a_effect_hover:hover{
+	padding: 5px;
+
+}
+.uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus{
+	background:#fff;
+}
+.quicklink > ul > li > a:hover{
+	color:#22370b;
+	font-weight: none;
+}
+.wekonek_position{
+	top:50%;
+	right: 0;
+}
+.button_title{
+	transition: 1s;
+	display: none;
+}
+.wekonek{
+	transition: 1s;
+}
+.wekonek:hover > .button_title{
+	transition: 1s;
+	display: block;
+}
+.wekonek_button_2>img{
+	transition: 0.4s;
+	width: 30%;
+}
+.wekonek_button_2>img:hover{
+	opacity: 0.9;
+}
+.title{
+	color:grey !important;
+	font-size: 30pt !important;
+	font-weight: 300 !important;
+	opacity: 0.3;
+}
+.uk-card-default{
+	box-shadow: none;
+}
+.uk-card{
+	box-shadow: none;
+}
+.uk-font{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+}
+.maintenance{
+	text-align: center;
+	width: 50%;
+	font-size: 30pt;
+	opacity: 0.3;
+	font-weight: 400;
+}
+.uk-dark-blue{
+	background: #050115 !important;
+}
+.login-bg{
+	background:#fff;
+}
